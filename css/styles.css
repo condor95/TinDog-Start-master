@@ -1,3 +1,10 @@
+
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 h3{
   text-align: center;
   font-size: 1.5rem;
@@ -10,7 +17,7 @@ body{
 p{
   color: #8f8f8f;
   text-align: center;
-
+font-family: "Ubuntu";
 }
 
 #title{
@@ -79,13 +86,46 @@ transform: rotate(25deg);
 
 .fas{
   color: #ef8172;
-justify-content: center;
-display: flex;
-font-size: 4rem;
+text-align: center;
+display: inline-block;
+
+padding-bottom: 40px;
 
 }
 
 
 .fas:hover{
   color: #ff4c68;
+}
+
+
+
+
+/* Testimonials */
+
+#testimonials{
+  text-align: center;
+  padding: 7%  15%;
+  background-color: #ef8172;
+  color: #fff;
+
+}
+
+.testimonial-image{
+  margin: 20px;
+border-radius: 100%;
+  width: 15%;
+
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
 }

@@ -23,6 +23,7 @@ font-family: "Ubuntu";
 #title{
 
   background-color: #ff4c68;
+padding-bottom: 150px;
 }
 .container-fluid{
   padding: 3% 15%;
@@ -78,11 +79,23 @@ font-family: "Ubuntu";
   width: 60%;
 
 transform: rotate(25deg);
+position: absolute;
+z-index: 1;
 
 }
 
 
 /* image color */
+
+
+#features{
+
+
+  background-color: #fff;
+  position: sticky;
+  z-index: 1;
+  padding: 7% 15%;
+}
 
 .fas{
   color: #ef8172;
@@ -144,4 +157,30 @@ padding: 3%  15%;
 
 .pricing-colum{
   padding: 3% 2%;
+}
+
+
+
+
+#cta{
+  text-align: center;
+  background-color:#ff4c68;
+  color: #fff;
+  padding-top: 3%;
+
+}
+
+.buttom-footer{
+
+
+  margin: 5% 3% 5% 0;
+}
+
+
+
+#footer{
+
+  color: #fff;
+  font-size: 20px;
+
 }

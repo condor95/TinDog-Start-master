@@ -24,10 +24,12 @@ font-family: "Ubuntu";
 
   background-color: #ff4c68;
 padding-bottom: 150px;
+
 }
 .container-fluid{
   padding: 3% 15%;
 }
+
 
 
 .Main-title{
@@ -35,6 +37,9 @@ padding-bottom: 150px;
   font-size: 4rem;
   line-height: 1.5;
   padding-bottom: 5%;
+text-align: left;
+
+
   color: white;
   }
 
@@ -77,9 +82,9 @@ padding-bottom: 150px;
 
 .title-image{
   width: 60%;
-
 transform: rotate(25deg);
 position: absolute;
+right: 30%;
 z-index: 1;
 
 }
@@ -152,6 +157,7 @@ padding: 3%  15%;
 #pricing{
 
   padding: 100px;
+  padding-bottom: 15%;
   text-align: center;
 }
 
@@ -160,19 +166,23 @@ padding: 3%  15%;
 }
 
 
-
-
 #cta{
   text-align: center;
   background-color:#ff4c68;
+
   color: #fff;
-  padding-top: 3%;
+  padding: 15% 15%;
+
 
 }
 
+.cta-h3{
+  font-size: 3rem;
+  font-family: "Montserrat";
+  margin-bottom: 30px;
+}
+
 .buttom-footer{
-
-
   margin: 5% 3% 5% 0;
 }
 
@@ -180,7 +190,26 @@ padding: 3%  15%;
 
 #footer{
 
-  color: #fff;
+
   font-size: 20px;
+  text-align: center;
+  padding: 7% 15%;
+
+}
+
+.social-icon{
+  margin:20px 10px;
+}
+
+
+@media (max-width: 991px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+  }
 
 }

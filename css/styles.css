@@ -5,22 +5,23 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family: Montserrat;
-
+  font-family: 'Montserrat';
 }
 
 
 
 p{
   color: #8f8f8f;
-
+  padding-top: 2%;
 }
 
 /* heading */
 
 .section-heading{
   font-size: 3rem;
-  line-height: 1.5rem;
+
+
+
 }
 
 /* container section */
